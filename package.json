@@ -1,13 +1,16 @@
 {
-  "name": "node-js-sample",
+  "name": "bitstarter",
   "version": "0.0.1",
-  "description": "a sample node.js app for heroku",
+  "description": "Jaldhar's homework for Coursera Startup Engineering course",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "2.5.x"
+    "express": "2.5.x",
+    "commander": "",
+    "cheerio": "",
+    "restler": ""
   },
   "engines": {
     "node": "0.8.x",
@@ -15,13 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/jaldhar/bitstarter"
   },
   "keywords": [
     "node",
     "heroku"
   ],
-  "author": "Mark Pundsack",
+  "author": "Jaldhar H. Vyas",
   "license": "BSD",
-  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21"
 }
